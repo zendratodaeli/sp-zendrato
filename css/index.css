@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: fixed;
+  margin: auto;
+  width: 100%;
+}
+
+header .navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar a {
+  display: block;
+  padding: 8px; 
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #555;
+  color: white;
+}
+
+a {
+  margin: 0.5em;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(8, 8, 8);
+}
+
+main .home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .home h1 {
+  padding-top: 2em;
+  color: #35636c;
+  font: italic bold 35px Georgia, Serif;
+  text-shadow: -2px 2px 2 #3a199f, -3px 7px 0 #0a0e27;
+  text-align: center;
+}
+
+main .home img {
+  width: 400px; /* Maximum width of the image */
+  margin: 15px auto;
+  border-radius: 10px; 
+}
+
+main .home p {
+  padding-top: 1em;
+  width: 50%;
+  text-align: justify;
+  margin: auto;
+  letter-spacing: 1px;
+}
+
+main .videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main section.videos h2 {
+  text-align: center;
+  margin-top: 1em;
+}
+
+section video {
+  width: 100%;
+  height: 20em;
+  margin: auto;
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+section .container-video {
+  display: flex;
+  margin: auto;
+}
+
+section .container-video .sub-container-video {
+  margin: 1em;
+}
+
+section .container-video .sub-container-video p {
+  text-align: center;
+}
+
+section.photos h2 {
+  text-align: center;
+  margin-top: 1em;
+}
+
+section .container-photo img {
+  width: 30%;
+  height: 20em;
+  margin: 1em;
+  cursor: pointer;
+}
+
+section .container-photo {
+  display: flex;
+  flex-direction: column;
+}
+
+section .sub-container-photo {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+/* section about */
+
+section.about h2 {
+  text-align: center;
+}
+
+section div.container-about {
+  display: flex;
+  margin-top: 1em;
+}
+
+section .container-about div {
+  width: 50%;
+  margin: 0 auto; /* Adds automatic margin to the left and right */
+  text-align: center;
+  /* border-style: solid; */
+  margin: 1em;
+}
+section.about div p {
+  width: 80%;
+  text-align: justify;
+  letter-spacing: 1px;
+  margin: auto;
+}
+
+
+
+/* section contact */
+
+section.contact {
+  margin-top: 2em;
+  text-align: center;
+}
+
+section.contact div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.contact p {
+  width: 50%;
+  text-align: justify;  
+  margin: auto;
+  letter-spacing: 1px;
+}
+
+section.contact div ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  text-align: left;
+}
+
+hr {
+  border: none; /* Removes the default border */
+  height: 2px; /* Sets the height of the line */
+  background-color: #333; /* Sets the color of the line */
+  width: 50%;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+footer {
+  font-weight: bolder;
+  text-align: center;
+}
